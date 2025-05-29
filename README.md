@@ -1,6 +1,7 @@
 # Task Tracker CLI
 
 Original project in: https://roadmap.sh/projects/task-tracker
+
 A simple command-line task manager written in Python.  
 It allows you to add, update, delete, and list tasks using a local JSON file as the database.
 
