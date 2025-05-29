@@ -39,13 +39,13 @@ cd Task-Tracker
 python3 cli.py [command] [arguments]
 ```
 
-##Command and usage
+## Command and usage
 
-#Add a task 
+# Add a task 
 Adds a new task with a default status of to-do.
 ``` python3 cli.py add "Buy groceries" ```
 
-#Update a task description
+# Update a task description
 Updates the description of a task by its ID.
  ```
 python3 cli.py update [id] "New description"
@@ -53,7 +53,7 @@ python3 cli.py update [id] "New description"
 python3 cli.py update 2 "Buy groceries and cook dinner"
 ```
 
-#Delete a task
+# Delete a task
 Deletes a task by its ID.
  ```
 python3 cli.py delete [id]
@@ -61,7 +61,7 @@ python3 cli.py delete [id]
 python3 cli.py delete 2
  ```
 
-#Mark task as in progress
+# Mark task as in progress
 Changes the status of a task to "in-progress".
  ```
 python3 cli.py mark-in-progress [id]
@@ -69,7 +69,7 @@ python3 cli.py mark-in-progress [id]
 python3 cli.py mark-in-progress 2
  ```
 
-#Mark task as done
+# Mark task as done
 Changes the status of a task to "done".
  ```
 python3 cli.py mark-done [id]
@@ -77,13 +77,13 @@ python3 cli.py mark-done [id]
 python3 cli.py mark-done 2
  ```
 
-#List all tasks
+# List all tasks
 Prints all tasks from the JSON file.
  ```
 python3 cli.py list
  ```
 
-#List tasks by status
+# List tasks by status
 Filters tasks by their status.
  ```
 python3 cli.py list to-do
@@ -91,13 +91,13 @@ python3 cli.py list in-progress
 python3 cli.py list done
  ```
 
-#File structure
+# File structure
 Task-Tracker/
 ├── cli.py          # Main Python script
 ├── tasks.json      # JSON file where tasks are stored (auto-generated)
 └── README.md       # Project documentation
 
-#Author
+# Author
 Developed by Jesús Garcés
 
 License
