@@ -93,9 +93,9 @@ python3 cli.py list done
 
 # File structure
 Task-Tracker/
-├── cli.py          # Main Python script
-├── tasks.json      # JSON file where tasks are stored (auto-generated)
-└── README.md       # Project documentation
+├── cli.py          #Main Python script
+├── tasks.json      #JSON file where tasks are stored (auto-generated)
+└── README.md       #Project documentation
 
 # Author
 Developed by Jesús Garcés
